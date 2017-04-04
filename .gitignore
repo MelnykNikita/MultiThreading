@@ -1,0 +1,15 @@
+*.iml
+.idea/
+.classpath
+.project
+.settings/
+*.class
+/target/
+/bin/
+*.*~
+*~
+*.pyc
+*.swp
+*.swo
+.settings
+.project
