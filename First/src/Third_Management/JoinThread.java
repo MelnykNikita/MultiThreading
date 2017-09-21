@@ -1,9 +1,11 @@
 package Third_Management;
 
 public class JoinThread extends Thread {
+
     public JoinThread(String name) {
         super(name);
     }
+
     public void run() {
         String threadName = getName();
         long timeout = 0;

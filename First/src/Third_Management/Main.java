@@ -6,7 +6,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        JoinThread threadFirst = new JoinThread("First");
+        JoinThread threadFirst = new Third_Management.JoinThread("First");
         JoinThread threadSecond = new JoinThread("Second");
 
         threadFirst.start();
